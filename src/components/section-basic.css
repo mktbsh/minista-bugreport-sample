@@ -1,0 +1,15 @@
+.section-basic {
+  padding: var(--theme-space-vw) 0;
+}
+
+.section-basic-inner {
+  max-width: var(--theme-site-width);
+  margin: 0 auto;
+  padding: 0 var(--theme-space-vw);
+}
+
+.section-basic-heading {
+  margin-bottom: calc(var(--theme-space-vw) * 0.5);
+  font-weight: 600;
+  font-family: var(--theme-font-sans-en);
+}

@@ -1,0 +1,52 @@
+{
+  "name": "minista-project",
+  "site": {
+    "title": "Example",
+    "description": "",
+    "url": "https://example.com",
+    "twitter": {
+      "id": ""
+    },
+    "copyright": {
+      "name": "Example",
+      "url": "",
+      "startYear": 2022
+    },
+    "menu": [
+      {
+        "title": "Docs",
+        "url": "https://minista.qranoko.jp/docs/"
+      },
+      {
+        "title": "GitHub",
+        "url": "https://github.com/qrac/minista"
+      }
+    ],
+    "features": [
+      {
+        "title": "Zero Config",
+        "text": "設定ファイルを作らなくても大概は良い感じに開発できます。"
+      },
+      {
+        "title": "TypeScript First",
+        "text": "TypeScript(.tsx)による開発を前提に動作検証を行っています。"
+      },
+      {
+        "title": "Fast Refresh",
+        "text": "開発中はHMRで差分のみ素早く更新。フルリロードの必要はありません。"
+      },
+      {
+        "title": "File-system Routing",
+        "text": "基本的なルーティングはファイルベースなので直感的です。"
+      },
+      {
+        "title": "Dynamic Routing",
+        "text": "非同期関数getStaticData内でAPIを叩いてページを生成できます。"
+      },
+      {
+        "title": "Beautiful code",
+        "text": "ビルド後のHTMLは読みやすいようにコメントも維持しつつ整形されます。"
+      }
+    ]
+  }
+}

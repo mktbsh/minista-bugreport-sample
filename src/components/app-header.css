@@ -1,0 +1,36 @@
+.app-header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: var(--theme-space-vw);
+  max-width: var(--theme-site-width);
+  margin: 0 auto;
+  padding: var(--theme-space-vw);
+}
+
+.app-header-logo {
+  position: relative;
+  top: -2px;
+  display: block;
+  width: clamp(120px, 14vw, 160px);
+  height: clamp(26px, 3.64vw, 36px);
+}
+
+.app-header-nav ul {
+  display: flex;
+  gap: calc(var(--theme-space-vw) / 3 * 2);
+}
+
+.app-header-nav a {
+  color: var(--theme-tx-2);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--theme-font-sans-en);
+  text-decoration: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .app-header-nav a:hover {
+    color: var(--theme-lk-1);
+  }
+}

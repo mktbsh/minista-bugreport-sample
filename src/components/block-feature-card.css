@@ -1,0 +1,19 @@
+.block-feature-card {
+  background-color: var(--theme-bg-2);
+  border-radius: 12px;
+}
+
+.block-feature-card-inner {
+  display: grid;
+  gap: 8px;
+  padding: 20px;
+}
+
+.block-feature-card-title {
+  font-weight: 600;
+  font-family: var(--theme-font-sans-en);
+}
+
+.block-feature-card-text {
+  font-size: 14px;
+}
